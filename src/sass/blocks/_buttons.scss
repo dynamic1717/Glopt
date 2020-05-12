@@ -1,0 +1,23 @@
+.button{
+    outline:none;
+    border:none;
+    text-transform: upperCase;
+    color: #ffffff;
+    height:45px;
+    border-radius:25px;
+    &__small{
+        width:160px;
+    }
+    &__middle{
+        width:180px;
+    }
+    &__large{
+        width:230px;
+        height:57px;
+        font-weight:700;
+        font-size:15px;
+    }
+    &__orange{
+        background: $mainOrange;
+    }
+}
