@@ -93,6 +93,9 @@
         width:160px;
         font-weight:800;
         font-size: 19px;
+        &:hover{
+            color:$mainOrange;
+        }
     }
 }
 
