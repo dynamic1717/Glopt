@@ -1,4 +1,5 @@
 @import 'libs/font';
+@import 'libs/normalize';
 @import 'base/variables';
 * {
     font-family: 'Roboto', sans-serif;
@@ -10,3 +11,4 @@
 }
 
 @import 'blocks/buttons';
+@import 'blocks/main';

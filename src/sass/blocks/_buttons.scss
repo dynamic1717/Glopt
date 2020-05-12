@@ -5,6 +5,10 @@
     color: #ffffff;
     height:45px;
     border-radius:25px;
+    font-size:12px;
+    font-weight: 500;
+    cursor:pointer;
+    transition: box-shadow .7s ease-out;
     &__small{
         width:160px;
     }
@@ -19,5 +23,10 @@
     }
     &__orange{
         background: $mainOrange;
+    }
+    &:hover{
+        box-shadow: -2px 3px 27px -6px rgba(255,255,255,.4);
+        transition: all .7s ease-out;
+        color:$black;
     }
 }
