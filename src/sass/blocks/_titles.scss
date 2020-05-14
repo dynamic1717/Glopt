@@ -2,7 +2,23 @@
     font-size: 26px;
     font-weight: 700;
     color: $black;
-    line-height: 0.88;
+    line-height: 23px;
     text-transform: uppercase;
     text-align: center;
+    &_white {
+        margin-top: 20px;
+        color: #ffffff;
+    }
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 300;
+    color: $black;
+    line-height: 24px;
+    text-align: center;
+    &_white {
+        margin-top: 20px;
+        color: #ffffff;
+    }
 }
