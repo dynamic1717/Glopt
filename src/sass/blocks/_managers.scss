@@ -1,0 +1,9 @@
+.managers {
+    min-height: 208px;
+    padding: 58px 0 76px 0;
+    background: url('../img/managers_bg.jpg') center (center/cover) no-repeat;
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+}

@@ -14,6 +14,10 @@
             justify-content: space-between;
             align-items: center;
             width:615px;
+            img {
+                width: 114px;
+                height: 114px;
+            }
         }
         &__text{
             font-size: 14px;
@@ -39,6 +43,7 @@
     position: absolute;
     top: 12%;
     z-index: 5;
+    cursor: pointer;
 }
 .slick-prev{
     left: 43%;
@@ -47,8 +52,8 @@
     right: 43%;
 }
 .slick-slide {
-    opacity: 0.5;
-    transform: scale(0.8);
+    opacity: 0.3;
+    transform: scale(0.7);
     outline: none;
 }
 .slick-center {
