@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.feed__carousel').slick({
+    $('.feed__slider').slick({
         centerMode: true,
         slidesToShow: 3,
         slidesToScroll: 1,
