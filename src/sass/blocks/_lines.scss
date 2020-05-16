@@ -1,0 +1,10 @@
+.line{
+    margin: 20px auto;
+    border:none;
+    width:147px;
+    height: 1px;
+    &_orange{
+        background-color:$mainOrange;
+        color:$mainOrange;
+    }
+}
